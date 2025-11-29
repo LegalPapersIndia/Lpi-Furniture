@@ -23,7 +23,7 @@ export default function Contact() {
     <>
       {/* Hero – Warm Mumbai Welcome */}
       <section className="relative h-screen bg-cover bg-center" style={{
-        backgroundImage: `url('https://images.unsplash.com/photo-1567598816725-8e9350b75161?w=2400&q=90')`
+        backgroundImage: `url('https://www.vrainteriors.com/wp-content/uploads/2024/02/Modern-Living-Room-Furniture-Ideas-Hero-scaled-1.jpg')`
       }}>
         <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/60 to-black/90" />
         <div className="relative h-full flex items-center justify-center text-center px-6">

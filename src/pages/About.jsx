@@ -7,7 +7,7 @@ export default function About() {
     <>
       {/* Hero – Indian Heritage */}
       <section className="relative h-screen bg-cover bg-center" style={{
-        backgroundImage: `url('https://images.unsplash.com/photo-1597074867119-7d48d4e8d4c9?w=2400&q=90')`
+        backgroundImage: `url('https://www.lujoluxuryliving.com/cdn/shop/files/Image_5.jpg?crop=center&height=1200&v=1747656940&width=1200')`
       }}>
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/80" />
         <div className="relative h-full flex items-center justify-center text-center px-6">

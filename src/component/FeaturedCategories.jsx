@@ -6,25 +6,25 @@ const categories = [
   {
     name: "Living Room",
     subtitle: "Where conversations begin",
-    img: "https://images.unsplash.com/photo-1618221195710-dd853673bb68?w=1600&q=90",
+    img: "https://cdn.shopify.com/s/files/1/0683/7338/1440/files/Living-and-dining_1_1.jpg?v=1713951337",
     link: "/shop?category=living"
   },
   {
     name: "Bedroom",
     subtitle: "Rest in timeless comfort",
-    img: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1600&q=90",
+    img: "https://www.bocadolobo.com/en/inspiration-and-ideas/wp-content/uploads/2023/09/Indulge-In-Opulence-50-Luxurious-Bedroom-Decor-Ideas-1-1024x788.jpg",
     link: "/shop?category=bedroom"
   },
   {
     name: "Dining",
     subtitle: "Gather around heirloom tables",
-    img: "https://images.unsplash.com/photo-1615529182904-14819c35db37?w=1600&q=90",
+    img: "https://rnb.scene7.com/is/image/roomandboard/adams_452567_25e1?size=2400,2400&scl=1",
     link: "/shop?category=dining"
   },
   {
     name: "Home Office",
     subtitle: "Work with purpose and style",
-    img: "https://images.unsplash.com/photo-1605566698091-b35f4d72e0be?w=1600&q=90",
+    img: "https://cdn.sharps.co.uk/uploads/public/66b/49e/179/66b49e1795dc8222352364.jpg",
     link: "/shop?category=office"
   }
 ];

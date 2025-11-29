@@ -10,7 +10,7 @@ const heroSlides = [
     subtitle: "Hand-built solid wood furniture that becomes family heirlooms",
     cta: "Explore Collection",
     link: "/shop",
-    image: "https://www.getmycouch.com/cdn/shop/files/Untitleddesign_50.png?v=1704181079",
+    image: "https://www.orangetree.in/cdn/shop/articles/Living-and-dining_1_1_1100x_08a44e99-1855-4516-ab82-86bbc86b74a3.jpg?v=1722849622",
     overlay: "bg-black/50"
   },
   {

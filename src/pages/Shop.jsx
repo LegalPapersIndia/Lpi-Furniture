@@ -5,14 +5,14 @@ import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const products = [
-  { id: 1, name: "Nordic Teak Sofa", price: 249900, category: "sofas", material: "wood", new: true, rating: 4.9, reviews: 89, image: "https://images.unsplash.com/photo-1586023427174-81d3c1e2c20e?w=1200&q=90" },
-  { id: 2, name: "Velvet Emerald Chair", price: 89900, category: "chairs", material: "fabric", bestseller: true, rating: 4.8, reviews: 156, image: "https://images.unsplash.com/photo-1592078613510-2b1fbdb331ca?w=1200&q=90" },
-  { id: 3, name: "Imperial Marble Table", price: 349900, category: "tables", material: "stone", new: true, rating: 5.0, reviews: 203, image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=90" },
-  { id: 4, name: "Heritage Leather Recliner", price: 189900, category: "chairs", material: "leather", rating: 4.7, reviews: 112, image: "https://images.unsplash.com/photo-1505843513577-22bb7d21e455?w=1200&q=90" },
-  { id: 5, name: "Minimal Walnut Bed", price: 219900, category: "beds", material: "wood", new: true, rating: 4.9, reviews: 74, image: "https://images.unsplash.com/photo-1567016376408-0226e4da0f08?w=1200&q=90" },
-  { id: 6, name: "Linen Cloud Sectional", price: 379900, category: "sofas", material: "fabric", bestseller: true, rating: 4.9, reviews: 167, image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1200&q=90" },
-  { id: 7, name: "Sheesham Coffee Table", price: 119900, category: "tables", material: "wood", new: true, rating: 4.8, reviews: 134, image: "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=1200&q=90" },
-  { id: 8, name: "Royal Oak Dresser", price: 179900, category: "storage", material: "wood", rating: 4.9, reviews: 89, image: "https://images.unsplash.com/photo-1551298372-1092c1ff64c5?w=1200&q=90" },
+  { id: 1, name: "Nordic Teak Sofa", price: 249900, category: "sofas", material: "wood", new: true, rating: 4.9, reviews: 89, image: "https://timbercraft.in/cdn/shop/files/modern-teak-nordic-sofa-set-152718.jpg?v=1745254218" },
+  { id: 2, name: "Velvet Emerald Chair", price: 89900, category: "chairs", material: "fabric", bestseller: true, rating: 4.8, reviews: 156, image: "https://beaumont-furniture.co.uk/16749-large_default/emerald-green-velvet-duchess-wingback-armchair.jpg" },
+  { id: 3, name: "Imperial Marble Table", price: 349900, category: "tables", material: "stone", new: true, rating: 5.0, reviews: 203, image: "https://5.imimg.com/data5/SELLER/Default/2024/11/467426277/HG/XW/SP/184407383/designer-metal-dinig-table-4-500x500.jpg" },
+  { id: 4, name: "Heritage Leather Recliner", price: 189900, category: "chairs", material: "leather", rating: 4.7, reviews: 112, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeHG987k69o2uvcSzG8XEtKHLieU5gFyJcMw&s" },
+  { id: 5, name: "Minimal Walnut Bed", price: 219900, category: "beds", material: "wood", new: true, rating: 4.9, reviews: 74, image: "https://image.made-in-china.com/365f3j00TkuWOSLKEdgH/Black-Walnut-Minimalist-Double-Bed.webp" },
+  { id: 6, name: "Linen Cloud Sectional", price: 379900, category: "sofas", material: "fabric", bestseller: true, rating: 4.9, reviews: 167, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRChqEfD-_PeBoYWKfqLixDGLktYwvHHVOC-Q&s" },
+  { id: 7, name: "Sheesham Coffee Table", price: 119900, category: "tables", material: "wood", new: true, rating: 4.8, reviews: 134, image: "https://ebansal.com/cdn/shop/files/Sofia_Solid_Sheesham_Wood_Coffee_Table_Natural_Finish.jpg?v=1745832706" },
+  { id: 8, name: "Royal Oak Dresser", price: 179900, category: "storage", material: "wood", rating: 4.9, reviews: 89, image: "https://www.royaloakindia.com/media/catalog/product/d/r/dr122202_12.jpg" },
 ];
 
 export default function ShopPage() {
@@ -51,7 +51,7 @@ export default function ShopPage() {
     <>
       {/* Clean Hero */}
       <section className="relative h-screen bg-black">
-        <img src="https://images.unsplash.com/photo-1618221195710-dd853673bb68?w=2400&q=90" className="w-full h-full object-cover opacity-60" alt="LPI Showroom" />
+        <img src="https://www.urbanwood.in/image/catalog/blogs/1260h-teak-wood-living-room-furniture-1051780.jpg" className="w-full h-full object-cover opacity-60" alt="LPI Showroom" />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 p-12 text-white text-center">
           <motion.h1 
